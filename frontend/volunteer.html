@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volunteer With Us | NGO Connect</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">NGO<span>Connect</span></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="volunteer.html" class="active">Volunteer</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="volunteer-hero">
+    <div class="volunteer-overlay"></div>
+    <div class="volunteer-hero-content fade-in">
+        <image src="vln.jpg" alt="volunteering" width="1000px"/>
+      <h1>Be a <span>Volunteer</span></h1>
+      <p>Give your time. Change lives. Experience the joy of serving others.</p>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="volunteer-intro fade-in">
+    <h2>Why Volunteer With NGO Connect?</h2>
+    <p>
+      Our volunteers are the heart of our organization. Whether you’re teaching children, spending time with elders, or distributing food,
+      every action contributes to a stronger, kinder community. Join us to make weekends meaningful and hearts full.
+    </p>
+  </section>
+
+  <!-- Volunteer Programs -->
+  <section class="volunteer-programs fade-in">
+    <h2>Volunteer Activities</h2>
+
+    <div class="volunteer-cards">
+      <div class="v-card">
+        <img src="teach.jpeg" alt="Teaching Kids">
+        <h3>Teaching & Mentorship</h3>
+        <p>Spend weekends teaching basic literacy, art, and computer skills to underprivileged children in rural centers.</p>
+      </div>
+
+      <div class="v-card">
+        <img src="elder.webp" alt="Elder Care">
+        <h3>Elder Care Visits</h3>
+        <p>Join us in visiting elder homes to provide companionship, conduct activities, and share stories and joy.</p>
+      </div>
+
+      <div class="v-card">
+        <img src="food.jpeg" alt="Food Distribution">
+        <h3>Food Drives & Community Kitchens</h3>
+        <p>Help prepare, pack, and distribute nutritious meals to those in need every second and fourth weekend.</p>
+      </div>
+
+      <div class="v-card">
+        <img src="plantation.jpeg" alt="Tree Plantation">
+        <h3>Environmental Drives</h3>
+        <p>Participate in our clean-up and plantation campaigns to build a greener, healthier planet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Volunteer Schedule -->
+  <section class="volunteer-schedule fade-in">
+    <h2>🗓️ Upcoming Volunteering Dates</h2>
+    <div class="schedule-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Event</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Nov 10, 2025</td><td>Child Education Camp</td><td>Sunshine School, Hyderabad</td></tr>
+          <tr><td>Nov 16, 2025</td><td>Food Distribution Drive</td><td>Community Hall, Gachibowli</td></tr>
+          <tr><td>Nov 23, 2025</td><td>Elder Care Visit</td><td>Silver Age Home, Banjara Hills</td></tr>
+          <tr><td>Nov 30, 2025</td><td>Tree Plantation</td><td>City Park, Kukatpally</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Volunteer Form -->
+  <section class="volunteer-form-section fade-in">
+    <h2>Join as a Volunteer</h2>
+    <p>Fill in your details below to become part of our mission. We’ll get in touch soon!</p>
+
+    <form id="volunteerForm" class="volunteer-form">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <select id="interest" required>
+        <option value="">Select Area of Interest</option>
+        <option value="education">Education</option>
+        <option value="healthcare">Healthcare</option>
+        <option value="eldercare">Elder Care</option>
+        <option value="environment">Environment</option>
+      </select>
+      <button type="submit" class="btn primary">Submit</button>
+    </form>
+
+    <div id="formMessage" class="form-message"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 NGO Connect | Together We Serve, Together We Grow</p>
+  </footer>
+
+</body>
+</html>

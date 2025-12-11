@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | NGO Connect</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">NGO<span>Connect</span></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="index.html#programs">Programs</a>
+      <a href="index.html#volunteer">Volunteer</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </header>
+
+  <!-- About Hero Banner -->
+  <!-- <section class="about-hero" >
+    <div class="about-hero-overlay"></div>
+
+    <div class="about-hero-content">
+      <img src="about-image.jpg" alt="about-image" class="about-hero-img">
+      <h1>About <span>NGO Connect</span></h1>
+      <p>Together, we build a compassionate tomorrow.</p>
+    </div>
+  </section> -->
+  <section class="about-hero">
+  <img src="aboutt.jpg" alt="Volunteers teaching kids" class="about-hero-img" />
+  <div class="about-hero-content">
+    <h1>About <span>NGO Connect</span></h1>
+    <p>
+      We are a community-driven organization dedicated to helping underprivileged children 
+      and the elderly through education, care, and empowerment. Together, we build a better tomorrow.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Story Section -->
+  <section class="about-story fade-in">
+    <h2>Our Journey</h2>
+    <p>
+      Founded in 2020, NGO Connect began as a small community initiative by a group of passionate students. 
+      Our mission is to empower underprivileged children and care for the elderly through education, health, and daily essentials. 
+      What started as weekend volunteering has now grown into a network of hundreds of young changemakers.
+    </p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="about-gallery fade-in">
+    <h2>Our Impact in Pictures</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="about1.avif" alt="Volunteers teaching kids">
+        <h2>Volunteers teaching kids</h2>
+      </div>
+      <div class="gallery-item">
+        <img src="about2.jpg" alt="Supporting elders with love">
+                <h2>Supporting elders with love</h2>
+      </div>
+      <div class="gallery-item">
+        <img src="about3.png" alt="Community food drive">
+        
+        <h2>Community food drive</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="mission fade-in">
+    <h2>Our Mission</h2>
+    <div class="mission-content">
+      <p>
+        We believe in compassion-driven action. By connecting the youth with meaningful volunteer opportunities, 
+        we aim to create a culture of care and inclusivity where every child and elder feels valued and supported.
+      </p>
+      <a href="index.html#volunteer" class="btn primary">Join Our Mission</a>
+    </div>
+  </section>
+  <script>
+    // Fade-in effect on scroll
+const fadeElements = document.querySelectorAll('.fade-in');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('visible');
+  });
+}, { threshold: 0.2 });
+
+fadeElements.forEach(el => observer.observe(el));
+
+  </script>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 NGO Connect | Empowering Communities Together</p>
+  </footer>
+
+</body>
+</html>

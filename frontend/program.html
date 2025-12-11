@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Programs | NGO Connect</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">NGO<span>Connect</span></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html" class="active">Programs</a>
+      <a href="index.html#volunteer">Volunteer</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </header>
+
+  <!-- Programs Hero Section -->
+  <section class="programs-hero">
+    <div class="hero-overlay"></div>
+    <div class="programs-hero-content fade-in">
+      <h1>Our <span>Programs</span></h1>
+      <p>Transforming lives through compassion, action, and dedication.</p>
+    </div>
+  </section>
+
+  <!-- Programs Overview -->
+  <section class="programs-intro fade-in">
+    <h2>Making a Difference Through Action</h2>
+    <p>
+      At NGO Connect, each of our programs is driven by empathy, sustainability, and empowerment.
+      We believe small acts, when multiplied by many, can change the world. Below are the key programs
+      that define our mission.
+    </p>
+  </section>
+
+  <!-- ====== EDUCATION PROGRAM ====== -->
+  <section class="program-section fade-in">
+    <div class="program-image">
+      <img src="prg1.jpg" alt="Children learning in our education initiative" />
+    </div>
+    <div class="program-content">
+      <h2>1. Child Education Initiative</h2>
+      <p>
+        Education is the foundation for change. Our volunteers work tirelessly to bring
+        education to underprivileged children through community classrooms, digital learning, and mentorship.
+      </p>
+      <ul>
+        <li>✅ Weekly classes for 200+ children in rural areas</li>
+        <li>✅ Free books, stationery, and school supplies</li>
+        <li>✅ Digital literacy and life-skill training</li>
+        <li>✅ Scholarship support for outstanding students</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== HEALTHCARE PROGRAM ====== -->
+  <section class="program-section reverse fade-in">
+    <div class="program-image">
+      <img src="prg2.jpg" alt="Healthcare volunteers providing medical support" />
+    </div>
+    <div class="program-content">
+      <h2>2. Healthcare & Wellness Camps</h2>
+      <p>
+        Our healthcare program ensures access to basic medical facilities, awareness campaigns,
+        and preventive health checkups for families in need.
+      </p>
+      <ul>
+        <li>✅ Monthly health camps in remote villages</li>
+        <li>✅ Free checkups, medicines, and awareness drives</li>
+        <li>✅ Hygiene and mental wellness workshops</li>
+        <li>✅ Partnerships with local hospitals and NGOs</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== ELDER CARE ====== -->
+  <section class="program-section fade-in">
+    <div class="program-image">
+      <img src="prg3.webp" alt="Volunteers helping senior citizens" />
+    </div>
+    <div class="program-content">
+      <h2>3. Elder Care & Companionship</h2>
+      <p>
+        We believe that every elder deserves love, respect, and care. Our volunteers visit old-age homes,
+        provide essential supplies, and spend time engaging with elders through companionship sessions.
+      </p>
+      <ul>
+        <li>✅ Daily support visits in 5 elder homes</li>
+        <li>✅ Free health checkups and recreational activities</li>
+        <li>✅ "Adopt a Grandparent" emotional support initiative</li>
+        <li>✅ Festival celebrations with elders</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== FOOD DRIVE ====== -->
+  <section class="program-section reverse fade-in">
+    <div class="program-image">
+      <img src="prg4.jpg" alt="Community food drive organized by NGO volunteers" />
+    </div>
+    <div class="program-content">
+      <h2>4. Community Food Drives</h2>
+      <p>
+        Fighting hunger is one of our core missions. Our team organizes community kitchens
+        and distributes nutritious meals to the needy and homeless.
+      </p>
+      <ul>
+        <li>✅ 10,000+ meals distributed every month</li>
+        <li>✅ Food sustainability campaigns in schools</li>
+        <li>✅ Collaboration with local markets to reduce food waste</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== ENVIRONMENT PROGRAM ====== -->
+  <section class="program-section fade-in">
+    <div class="program-image">
+      <img src="prg5.jpg" alt="Tree plantation event" />
+    </div>
+    <div class="program-content">
+      <h2>5. Environmental Sustainability</h2>
+      <p>
+        A clean environment is a healthy future. We focus on tree plantation drives, waste
+        management awareness, and eco-friendly lifestyle promotion.
+      </p>
+      <ul>
+        <li>✅ 5000+ saplings planted annually</li>
+        <li>✅ Plastic-free campaigns in urban schools</li>
+        <li>✅ Community workshops on recycling and composting</li>
+        <li>✅ Clean-up drives in local areas</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="join-program fade-in">
+    <h2>Be Part of the Change</h2>
+    <p>
+      Your time and kindness can make a difference. Join our programs and help us build a world
+      where compassion leads.
+    </p>
+    <a href="index.html#volunteer" class="btn primary">Join as Volunteer</a>
+  </section>
+
+  <!-- ====== DONATION SECTION ====== -->
+  <section class="donate fade-in" id="donate">
+    <h2>Support Our Mission 💖</h2>
+    <p>Your contributions help us educate children, care for elders, and support communities in need.</p>
+
+    <form id="donationForm" class="donate-form">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+  <label for="program">Choose a Program to Support</label>
+  <select id="program" name="program" required>
+    <option value="">Select Program</option>
+    <option value="Education Initiative">Child Education Initiative</option>
+    <option value="Healthcare Camps">Healthcare & Wellness</option>
+    <option value="Elder Care">Elder Care & Companionship</option>
+    <option value="Food Drive">Community Food Drives</option>
+    <option value="Environment">Environmental Sustainability</option>
+  </select>
+
+  <label for="amount">Donation Amount (₹)</label>
+  <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+  <button type="button" id="donateBtn" class="btn primary">Proceed to Payment</button>
+</form>
+
+  </section>
+
+  <!-- Razorpay Payment Integration -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+document.getElementById("donateBtn").addEventListener("click", async function () {
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const amount = document.getElementById("amount").value.trim();
+  const program = document.getElementById("program").value.trim();
+
+  if (!name || !email || !amount || !program) {
+    alert("Please fill all details before proceeding.");
+    return;
+  }
+
+  try {
+    const response = await fetch("donate_process.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, amount, program }),
+    });
+
+    const order = await response.json();
+
+    if (order.error) {
+      alert("Error: " + order.error);
+      return;
+    }
+
+    const options = {
+      key: "rzp_test_1234567890abcdef", // Replace with your Razorpay key
+      amount: order.amount,
+      currency: "INR",
+      name: "NGO Connect",
+      description: `Donation for ${program}`,
+      order_id: order.id,
+      handler: function (response) {
+        window.location.href = "thankyou.html?payment_id=" + response.razorpay_payment_id;
+      },
+      prefill: {
+        name: name,
+        email: email,
+      },
+      theme: {
+        color: "#06b6d4",
+      },
+    };
+
+    const rzp = new Razorpay(options);
+    rzp.open();
+  } catch (err) {
+    alert("Something went wrong. Check console for details.");
+    console.error(err);
+  }
+});
+
+fetch("http://localhost/ngo-connect/backend/donate_process.php", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ name, email, amount })
+})
+
+</script>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 NGO Connect | Empowering Communities Together</p>
+  </footer>
+
+</body>
+</html>

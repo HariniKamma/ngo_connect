@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NGO Connect | Serve with Heart</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">NGO<span>Connect</span></div>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="About.html">About</a>
+      <a href="program.html">Programs</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- Hero Section with Video Background -->
+<section id="home" class="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="hero.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>Serve with Heart ❤️<br>Help <span>Children</span> & <span>Elders</span> Thrive</h1>
+    <p>Join our youth-driven movement — volunteer every weekend and make a real difference!</p>
+    <div class="hero-buttons">
+      <a href="#volunteer" class="btn primary">Become a Volunteer</a>
+      <a href="#programs" class="btn secondary">Explore Programs</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
+    <h2>About Us</h2>
+    <p>We’re a youth-powered NGO that serves kids and elders by providing daily necessities, education support, and care programs. Together, we’re building a compassionate future where everyone thrives.</p>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="programs fade-in">
+    <h2>Our Programs</h2>
+    <div class="program-grid">
+      <div class="program-card">
+        <h3>Child Care Kits</h3>
+        <p>Monthly essentials: food, books, and learning kits for underprivileged kids.</p>
+      </div>
+      <div class="program-card">
+        <h3>Senior Support</h3>
+        <p>Home visits, medicine aid, and emotional support for elderly individuals.</p>
+      </div>
+      <div class="program-card">
+        <h3>Weekend Drives</h3>
+        <p>Volunteer with us every weekend to bring smiles to local communities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Volunteer Section -->
+  <section id="volunteer" class="volunteer fade-in">
+    <h2>Volunteer With Us</h2>
+    <p>Join hands to create impact — we’ll contact you for weekend opportunities!</p>
+    <form id="volunteer-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 NGO Connect | Empowering Communities Together</p>
+  </footer>
+</body>
+</html>
