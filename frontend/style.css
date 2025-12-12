@@ -260,7 +260,7 @@ textarea {
   width: 100%;
   min-height: 100vh; /* occupies almost full screen */
   padding: 120px 20px 80px; /* balanced padding top-bottom */
-  background: linear-gradient(120deg, #ae9fc6 0%, #5f7ac5 50%, #3366a8 100%);
+  background: linear-gradient(120deg, #695675 0%, #7bb3b7 50%, #3366a8 100%);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -659,7 +659,7 @@ textarea {
 .volunteer-overlay {
   position: absolute;
   inset: 0;
-  background: rgb(70, 57, 79)
+  background: rgb(105, 160, 173)
 }
 
 .volunteer-hero-content {
